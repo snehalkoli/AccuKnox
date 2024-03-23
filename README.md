@@ -24,12 +24,13 @@ The `script.js` file contains functions to handle button clicks and input change
 
 ## Features
 - Responsive grid layout
+- Modular code design with functions for text manipulation actions
 - Buttons to make text bold, italic, and underline
 - Input fields to change font size and text color
 - Real-time application of changes to sentences
 
 ## Contributors
-[[- snehalkoli](https://github.com/snehalkoli)
+[- snehalkoli](https://github.com/snehalkoli)
 ## Future Improvements
 - Add more text manipulation options such as text alignment and font family selection.
 - Improve the user interface with better styling and animations.
