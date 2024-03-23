@@ -29,7 +29,7 @@ The `script.js` file contains functions to handle button clicks and input change
 - Real-time application of changes to sentences
 
 ## Contributors
-[- snehalkoli](url)
+[[- snehalkoli](https://github.com/snehalkoli)
 ## Future Improvements
 - Add more text manipulation options such as text alignment and font family selection.
 - Improve the user interface with better styling and animations.
