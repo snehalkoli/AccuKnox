@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 60px;
+  padding: 100px;
+  border: 1px solid #ddd;
+}
+
+.grid-item {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.grid-item p {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+input{
+  width: 40px;
+}
+.button-container button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+  background-color: white; 
+  /* color: #fff; */
+  transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
+}
+
+.button-container button:hover {
+  border: none;
+  background-color:black;
+  color:white; /* Darken the background color on hover */
+}
+
+.button-container input {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+      grid-template-columns: 1fr;
+      border: none;
+      grid-gap: 20px;
+      padding: 20px;
+  }
+}
